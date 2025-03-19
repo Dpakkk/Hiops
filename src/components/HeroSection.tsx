@@ -8,26 +8,19 @@ const HeroSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading and text */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold tracking-tight mb-6 text-black">
-            AI powered AWS cost monitoring and<br></br> reasoning platform.
+          <h1 className="title">
+            AWS cost monitoring and<br /> reasoning platform.
           </h1>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            HiOps tells you why your AWS cost went up and what you can do to reduce the cost. Fully automated. We use AI and devops humans to help you reduce the cost. 
-
+          <p className="subtitle">
+            HiOps tells you why your AWS cost went up and what you can do to reduce the cost. Fully automated. We use AI and devops humans to help you reduce the cost.
           </p>
           
           {/* Buttons */}
           <div className="mt-10 flex justify-center gap-4">
-            <Link 
-              href="/signup" 
-              className="flex items-center justify-center px-5 py-2.5 text-base font-medium rounded bg-blue-500 text-white hover:bg-blue-600 transition-colors"
-            >
+            <Link href="/signup" className="btn-primary">
               Start free <FiArrowRight className="ml-2" />
             </Link>
-            <Link 
-              href="/demo" 
-              className="flex items-center justify-center px-5 py-2.5 text-base font-medium rounded border border-gray-300 text-gray-700 hover:bg-gray-50 transition-colors"
-            >
+            <Link href="/demo" className="btn-secondary">
               Book a demo
             </Link>
           </div>
@@ -37,7 +30,6 @@ const HeroSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mt-8">
           {/* Left panel - metrics */}
           <div className="lg:col-span-3 bg-gray-50 p-5 rounded-lg">
-            
             <div className="bg-white p-4 rounded-lg">
               <div className="mb-2 text-sm text-gray-500">Cost saved</div>
               <div className="flex items-center">
@@ -53,7 +45,6 @@ const HeroSection: React.FC = () => {
           {/* Center panel - person image */}
           <div className="lg:col-span-5 relative rounded-lg overflow-hidden">
             <div className="aspect-w-4 aspect-h-3 bg-gray-200 w-full h-full">
-              {/* This will be replaced with your actual image */}
               <div className="w-full h-full relative">
                 <Image
                   src="/placeholder-person.jpg"
@@ -93,8 +84,8 @@ const HeroSection: React.FC = () => {
                 </div>
               </div>
             </div>
-            
           </div>
+          
         </div>
       </div>
     </div>
