@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 120">
+  <!-- Logo Group -->
+  <g transform="translate(60, 60)">
+    <!-- Outer octagon -->
+    <path d="M0,-50 L35.4,-35.4 L50,0 L35.4,35.4 L0,50 L-35.4,35.4 L-50,0 L-35.4,-35.4 Z" 
+          fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" />
+    
+    <!-- Simple H -->
+    <path d="M-15,-25 L-15,25 M-15,0 L15,0 M15,-25 L15,25" 
+          fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  
+  <!-- Text "HiOps" -->
+  <text x="135" y="60" dominant-baseline="central" font-family="Arial, sans-serif" font-weight="900" font-size="60" letter-spacing="1" fill="#FFFFFF">HiOps</text>
+</svg>
