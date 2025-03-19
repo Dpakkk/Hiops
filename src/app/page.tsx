@@ -1,6 +1,7 @@
 import HeroSection from '@/components/HeroSection';
 import FeaturesSection from '@/components/FeaturesSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import WhyHiops from '@/components/WhyHiops'
 import CTASection from '@/components/CTASection';
 import type { Metadata } from 'next';
 
@@ -16,6 +17,7 @@ export default function Home() {
       <FeaturesSection />
       <TestimonialsSection />
       <CTASection />
+      <WhyHiops />
     </div>
   );
 }
