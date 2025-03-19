@@ -9,10 +9,13 @@ const HeroSection: React.FC = () => {
         {/* Heading and text */}
         <div className="text-center mb-12">
           <h1 className="title">
-            AWS cost monitoring and<br /> reasoning platform.
+            Intelligent AWS Cost <br></br> Monitoring & Optimization
           </h1>
           <p className="subtitle">
-            HiOps tells you why your AWS cost went up and what you can do to reduce the cost. Fully automated. We use AI and devops humans to help you reduce the cost.
+             Instantly find out why your AWS costs increased and how to reduce them—fast.
+          </p>
+          <p className="subtitle">
+             MLpops combines AI-driven insights with 24/7 human DevOps support.
           </p>
           
           {/* Buttons */}

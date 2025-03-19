@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s | HiOps',
     default: 'HiOps - Monitor and Optimize AWS Cost',
   },
-  description: 'Have better visibilit',
+  description: 'Have better visibility',
 };
 
 export default function RootLayout({
