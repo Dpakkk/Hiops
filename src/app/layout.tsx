@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | CAST AI',
-    default: 'CAST AI - Cloud Cost Optimization Platform',
+    template: '%s | HiOps',
+    default: 'HiOps - Monitor and Optimize AWS Cost',
   },
-  description: 'CAST AI analyzes and optimizes your Kubernetes costs in real-time. Connect your cluster in minutes and start saving up to 50% on your cloud bill.',
+  description: 'HiOps monitor your reduce your AWS cloud bills.',
 };
 
 export default function RootLayout({

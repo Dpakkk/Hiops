@@ -15,7 +15,7 @@ const testimonials: Testimonial[] = [
     company: "/company-logo1.png",
   },
   {
-    content: "CAST AI's multi-cloud approach has given us flexibility and bargaining power with cloud providers that we never had before.",
+    content: "HiOps's multi-cloud approach has given us flexibility and bargaining power with cloud providers that we never had before.",
     author: "Michael Johnson",
     role: "DevOps Lead, DataSphere",
     company: "/company-logo2.png",
@@ -37,7 +37,7 @@ const TestimonialsSection: React.FC = () => {
             Trusted by innovative companies
           </h2>
           <p className="mt-4 text-xl text-gray-500">
-            See what our customers are saying about CAST AI
+            See what our customers are saying about HiOps
           </p>
         </div>
         

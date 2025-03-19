@@ -2,8 +2,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Pricing - CAST AI',
-  description: 'Flexible pricing plans for Kubernetes cost optimization with CAST AI.',
+  title: 'Pricing - HiOps',
+  description: 'Flexible pricing plans for Kubernetes cost optimization with HiOps.',
 };
 
 interface PricingPlan {
@@ -161,7 +161,7 @@ export default function Pricing() {
           <div className="mt-6 space-y-6">
             <div>
               <h3 className="text-lg font-medium text-cast-dark">
-                How does CAST AI pricing work?
+                How does HiOps pricing work?
               </h3>
               <p className="mt-2 text-base text-gray-500">
                 Our pricing is based on a monthly subscription model with different tiers depending on the number of Kubernetes clusters you need to manage and the features you require.

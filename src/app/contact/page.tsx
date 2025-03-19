@@ -47,7 +47,7 @@ export default function Contact() {
               Get in touch
             </h1>
             <p className="mt-4 text-lg text-gray-500">
-              Have questions about CAST AI or need help getting started? Our team is here to help.
+              Have questions about HiOps or need help getting started? Our team is here to help.
             </p>
             
             <div className="mt-8 border-t border-gray-200 pt-8">

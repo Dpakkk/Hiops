@@ -11,7 +11,7 @@ interface Feature {
 const features: Feature[] = [
   {
     name: 'Automated Cost Optimization',
-    description: 'CAST AI automatically adjusts your Kubernetes resources to ensure you\'re always using the most cost-effective instance types.',
+    description: 'HiOps automatically adjusts your Kubernetes resources to ensure you\'re always using the most cost-effective instance types.',
     icon: FiBarChart2,
   },
   {
@@ -21,7 +21,7 @@ const features: Feature[] = [
   },
   {
     name: 'Autonomous Kubernetes',
-    description: 'Let CAST AI handle node provisioning, scaling, and resource allocation to optimize for both performance and cost.',
+    description: 'Let HiOps handle node provisioning, scaling, and resource allocation to optimize for both performance and cost.',
     icon: FiServer,
   },
   {
@@ -68,7 +68,7 @@ const FeaturesSection: React.FC = () => {
               Reduce your cloud costs by up to 50%
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              CAST AI&apos;s real-time optimization engine analyzes your workloads and recommends the most cost-effective cloud instances while maintaining performance.
+              HiOps&apos;s real-time optimization engine analyzes your workloads and recommends the most cost-effective cloud instances while maintaining performance.
             </p>
             <ul className="mt-6 space-y-4">
               <li className="flex items-start">

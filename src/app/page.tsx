@@ -5,8 +5,8 @@ import CTASection from '@/components/CTASection';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'CAST AI - Cloud Cost Optimization Platform',
-  description: 'CAST AI analyzes and optimizes your Kubernetes costs in real-time. Connect your cluster in minutes and start saving up to 50% on your cloud bill.',
+  title: 'HiOps - Cloud Cost Optimization Platform',
+  description: 'HiOps analyzes and optimizes your cloud costs in real-time. Connect your cluster in minutes and start saving up to 50% on your cloud bill.',
 };
 
 export default function Home() {
