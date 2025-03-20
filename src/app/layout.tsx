@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     default: 'HiOps - Monitor and Optimize AWS Cost',
   },
   description: 'Have better visibility',
+  icons: {
+    icon: '/small-logo.svg',
+  },
 };
 
 export default function RootLayout({
