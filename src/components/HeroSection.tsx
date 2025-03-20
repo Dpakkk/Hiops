@@ -51,6 +51,7 @@ const HeroSection: React.FC = () => {
               <div className="w-full h-full relative">
                 <Image
                   src="/placeholder-person.jpg"
+                    // src="/before-after-hiops.png"
                   alt="Professional using HiOps dashboard"
                   fill
                   className="object-cover"
