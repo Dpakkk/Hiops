@@ -4,6 +4,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import WhyHiops from '@/components/WhyHiops'
 import CTASection from '@/components/CTASection';
 import type { Metadata } from 'next';
+import TrustedBy from '@/components/TrustedBy';
 
 export const metadata: Metadata = {
   title: 'HiOps - Cloud Cost Optimization Platform',
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <div>
       <HeroSection />
+      <TrustedBy />
       <FeaturesSection />
       <TestimonialsSection />
       <CTASection />
